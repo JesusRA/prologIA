@@ -1,3 +1,5 @@
+# Apuntes
+
 a:-b = regla, b implica a, si es cierto lo de la derecha se
 implica a lo de la izq.
 
