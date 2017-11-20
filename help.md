@@ -9,3 +9,5 @@ a:-b,c = , es y.
 a:-b;c = ; es o.
 
 [H|T] = [mia, vincent, jules, yolanda]. = lista, H(Head), T(Tail, resto de la lista).
+
+http://www.cs.us.es/~jalonso/pub/2006-ej_prog_declarativa.pdf
