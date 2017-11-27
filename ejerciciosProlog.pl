@@ -52,6 +52,16 @@ factorial(X,Y):-
   factorial(X1,Y1),
   Y is X*Y1.
 
+factorialAcc(1,Acc,Y):-
+  Y = Acc.
+factorialAcc(X,OldAcc,Y):-
+  X > 1,
+  X1 is X-1,
+  NewAcc is OldAcc*X,
+  factorialAcc(X1,NewAcc,Y).
+factorial2(X,Y):-
+  factorialAcc(X,1,Y).
+
 % 9
 fibonacci(0,0).
 fibonacci(1,1).
